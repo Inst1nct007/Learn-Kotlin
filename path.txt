@@ -24,5 +24,7 @@ Print - Age is 21
 Eg. Total Money - $100.48
 Money without change - $100
 
+7. Use the ? and !! operators for null
+
 Input
 
