@@ -1,0 +1,17 @@
+OUTPUT
+
+1. WAP to print your name
+
+2. WAP to print your age
+
+VARIABLES
+
+1. WAP to store your firstname and lastname in two variables and print them together.
+
+2. WAP to store the day, month and year in 3 variables and print them in this format, dd/mm/yyyy.
+
+3. WAP to store the radius of a circle in a variable and print it's perimeter and area.
+
+4. WAP to store the length and breadth of a rectangle in two variables and print the perimeter and area.
+
+Input
