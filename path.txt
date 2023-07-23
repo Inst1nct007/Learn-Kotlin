@@ -14,4 +14,15 @@ VARIABLES
 
 4. WAP to store the length and breadth of a rectangle in two variables and print the perimeter and area.
 
+# HINT Learn about the difference between val and const
+
+5. Take your age as a float, but only print the integer part.
+Eg. Age - 21.6
+Print - Age is 21
+
+6. Store the total amount of money u have. Print the money excluding any change.
+Eg. Total Money - $100.48
+Money without change - $100
+
 Input
+
