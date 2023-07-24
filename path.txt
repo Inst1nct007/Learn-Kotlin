@@ -24,7 +24,85 @@ Print - Age is 21
 Eg. Total Money - $100.48
 Money without change - $100
 
-7. Use the ? and !! operators for null
+CONDITIONAL STATEMENTS
+
+1. WAP to store the age of user and check if they are adult or minor
+
+2. WAP to store the temperature. Print "Hot" if it's >=30; Print "Pleasant" if it's >=20; Print "Cool" if it's >= 10; Else print "Cold".
+
+Soln.
+
+when {
+        (temp >= 30) -> print("Weather is Hot")
+        
+        (temp >= 20) -> print("Weather is Pleasant")
+        
+        (temp >= 10) -> print("Weather is Cool")
+        
+        else -> print("Weather is Cold")
+    }
+
+3. WAP to check if a planet is in our solar system
+
+Soln.
+
+  val planet: String = "Earch"
+    
+  val isInSolarSystem: String = when (planet.lowercase()) {
+        "mercury" -> "Planet is in Solar System"
+        "venus" -> "Planet is in Solar System"
+        "earth" -> "Planet is in Solar System"
+        "mars" -> "Planet is in Solar System"
+        "jupiter" -> "Planet is in Solar System"
+        "saturn" -> "Planet is in Solar System"
+        "uranus" -> "Planet is in Solar System"
+        "neptune" -> "Planet is in Solar System"
+        else -> "Planet is not in Solar System"
+    }
+
+4. WAP to print if the user is arriving or leaving
+
+Soln.
+
+    val greeting: String = "hello"
+    
+    when (greeting.lowercase()) {
+        "hello", "hi" -> print("User is Arriving")
+        "bye", "goodbye" -> print("User is Leaving")
+        else -> print("Don't know what's happening")
+    }
+
+5. WAP to print the number of digits in a number
+
+Soln.
+
+    val num: Int = 12
+    
+    val digits: String = when (num) {
+        in 1..9 -> "1"
+        in 10..99 -> "2"
+        in 100..1000 -> "3"
+        else -> "More than 3 digits"
+    }
+    
+    print(digits)
+
+6. WAP to print the season
+
+Soln.
+
+    when(season) {
+        in 1..3 -> print("Spring season")
+        in 4..6 -> print("Summer season")
+        in 7..8 -> print("Rainy season")
+        in 9..10 -> print("Autumn season")
+        in 11..12 -> print("Winter season")
+        !in 1..12 -> print("Enter valid month of year")
+    }
+
+NULL OPERATIONS
+
+1. Use the ? and !! operators for null
 
 Input
 
