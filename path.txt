@@ -4,6 +4,34 @@ OUTPUT
 
 2. WAP to print your age
 
+DATATYPES
+
+1. Int Eg. val num = 1        toInt()
+
+2. Long Eg. val num = 1L        toLong()
+
+3. Byte Eg. val num: Byte = 1        toByte()
+
+4. Double Eg. val num = 1.0        toDouble()
+
+5. Float Eg. val num = 1.0f        toFloat()
+
+OPERATIONS
+
+1. shl -> Signed Shift Left
+
+2. shr -> Signed Shift Right
+
+3. ushr -> Unsigned Shift Right
+
+4. and -> Bitwise AND
+
+5. or -> Bitwise OR
+
+6. xor -> Bitwise XOR
+
+7. num.inv() -> Flips the 1s to 0s and 0s to 1s. Shows the 2's complement.
+
 VARIABLES
 
 1. WAP to store your firstname and lastname in two variables and print them together.
@@ -23,6 +51,10 @@ Print - Age is 21
 6. Store the total amount of money u have. Print the money excluding any change.
 Eg. Total Money - $100.48
 Money without change - $100
+
+7. WAP to print the type of a variable in Kotlin.
+
+x::class.simpleName
 
 CONDITIONAL STATEMENTS
 
@@ -104,5 +136,9 @@ NULL OPERATIONS
 
 1. Use the ? and !! operators for null
 
-Input
+ARRAY
+
+
+
+1. WAP to create an array of Int, Float, Double, String
 
