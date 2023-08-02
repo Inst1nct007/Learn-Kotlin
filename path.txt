@@ -16,11 +16,23 @@ DATATYPES
 
 5. Float Eg. val num = 1.0f        toFloat()
 
+6. UByte Eg. val x: UByte = 1u
+
+7. UShort Eg. val x: UShort = 1u
+
+8. UInt Eg. val x: UInt = 1u
+
+9. ULong Eg. val x: ULong = 1u
+
+
+
 OPERATIONS
 
 1. shl -> Signed Shift Left
 
 2. shr -> Signed Shift Right
+
+The right shift represents integer division by 2bits, while the left shift is multiplication by 2bits.
 
 3. ushr -> Unsigned Shift Right
 
@@ -55,6 +67,10 @@ Money without change - $100
 7. WAP to print the type of a variable in Kotlin.
 
 x::class.simpleName
+
+8. Double.NaN (Not a number) is considered greater than any other element including Double.POSITIVE_INFINITY
+
+9. -0.0 is considered lesser than 0.0        print(listOf(Double.NaN, Double.POSITIVE_INFINITY, 0.0, -0.0).sorted())
 
 CONDITIONAL STATEMENTS
 
@@ -138,7 +154,6 @@ NULL OPERATIONS
 
 ARRAY
 
-
-
 1. WAP to create an array of Int, Float, Double, String
 
+2. WAP to initialize an array with 5 0s.
