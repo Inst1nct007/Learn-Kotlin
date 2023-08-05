@@ -4,6 +4,8 @@ OUTPUT
 
 2. WAP to print your age
 
+3. In print("i = $i"). Here $i is a template expression
+
 DATATYPES
 
 1. Int Eg. val num = 1        toInt()
@@ -24,7 +26,7 @@ DATATYPES
 
 9. ULong Eg. val x: ULong = 1u
 
-
+THERE ARE TWO TYPES OF STRINGS IN KOTLIN a.  Escaped String ("")        b. Raw String ("""""")
 
 OPERATIONS
 
@@ -157,3 +159,9 @@ ARRAY
 1. WAP to create an array of Int, Float, Double, String
 
 2. WAP to initialize an array with 5 0s.
+
+3. WAP to print the previous array using forEach{}
+
+ARRAYS ARE INVARIANT i.e. we cannot assign Array<String> to Array<any>
+
+
