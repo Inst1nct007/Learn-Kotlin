@@ -74,6 +74,42 @@ x::class.simpleName
 
 9. -0.0 is considered lesser than 0.0        print(listOf(Double.NaN, Double.POSITIVE_INFINITY, 0.0, -0.0).sorted())
 
+NULL OPERATIONS
+
+1. Use the ? and !! operators for null
+
+ARRAY
+
+1. WAP to create an array of Int, Float, Double, String
+
+2. WAP to initialize an array with 5 0s.
+
+3. WAP to print the previous array using forEach{}
+
+ARRAYS ARE INVARIANT i.e. we cannot assign Array<String> to Array<any>
+
+TYPE CHECKS AND CASTS
+
+1. is and !is can be used to check variable types
+
+2. `is` is used for smart casts
+
+3. `as` is used for unsafe casts.
+
+Eg. 1
+
+val x: Any = "hello"
+val y: String = x as String
+
+Eg. 2
+
+val x: Any = 123
+val y: String = x as String
+
+#This gives class cast exception. `as` doesn't check if cast is possible. It casts and hopes for the best.
+
+4. `as?` is called safe cast. It returns null when cast cannot be performed.
+
 CONDITIONAL STATEMENTS
 
 1. WAP to store the age of user and check if they are adult or minor
@@ -150,38 +186,32 @@ Soln.
         !in 1..12 -> print("Enter valid month of year")
     }
 
-NULL OPERATIONS
+7. WAP to print all the odd numbers between 1 and 10
 
-1. Use the ? and !! operators for null
+for(i in 1..5 step 2) {
+        println(i)
+}
 
-ARRAY
+8. WAP to print all the even numbers from 1 to 10 in descending order.
 
-1. WAP to create an array of Int, Float, Double, String
+for(i in 10 downTo 1 step 2) {
+        println(i)
+}
 
-2. WAP to initialize an array with 5 0s.
+9. WAP to iterate a for loop over an array
 
-3. WAP to print the previous array using forEach{}
+val arr: IntArray = intArrayOf(1,2,3)
+    
+for (i in arr.indices) {
+        println(arr[i])
+}
 
-ARRAYS ARE INVARIANT i.e. we cannot assign Array<String> to Array<any>
+OR
 
-TYPE CHECKS AND CASTS
+val arr: IntArray = intArrayOf(1,2,3)
+    
+for ((index, value) in arr.withIndex()) {
+        println(value)
+}
 
-1. is and !is can be used to check variable types
-
-2. `is` is used for smart casts
-
-3. `as` is used for unsafe casts.
-
-Eg. 1
-
-val x: Any = "hello"
-val y: String = x as String
-
-Eg. 2
-
-val x: Any = 123
-val y: String = x as String
-
-#This gives class cast exception. `as` doesn't check if cast is possible. It casts and hopes for the best.
-
-4. `as?` is called safe cast. It returns null when cast cannot be performed.
+10. 
