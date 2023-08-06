@@ -164,4 +164,24 @@ ARRAY
 
 ARRAYS ARE INVARIANT i.e. we cannot assign Array<String> to Array<any>
 
+TYPE CHECKS AND CASTS
 
+1. is and !is can be used to check variable types
+
+2. `is` is used for smart casts
+
+3. `as` is used for unsafe casts.
+
+Eg. 1
+
+val x: Any = "hello"
+val y: String = x as String
+
+Eg. 2
+
+val x: Any = 123
+val y: String = x as String
+
+#This gives class cast exception. `as` doesn't check if cast is possible. It casts and hopes for the best.
+
+4. `as?` is called safe cast. It returns null when cast cannot be performed.
