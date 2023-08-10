@@ -215,3 +215,9 @@ for ((index, value) in arr.withIndex()) {
 }
 
 10. 
+
+FUNCTIONS
+
+# If a function doesn't return anything, It returns Unit.
+
+
